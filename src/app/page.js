@@ -1,4 +1,4 @@
-export default function Home() {
+export default function Page() {
   const services = [
     { name: "Permeable Install", description: "Eco-friendly, durable surfaces." },
     { name: "Hybrid Pavement", description: "Pattern asphalt, interlock, or concrete." },
