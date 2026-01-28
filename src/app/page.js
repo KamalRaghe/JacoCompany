@@ -1,8 +1,8 @@
 export default function Page() {
   const services = [
-    { name: "Permeable Install", description: "Eco-friendly, durable surfaces." },
-    { name: "Hybrid Pavement", description: "Pattern asphalt, interlock, or concrete." },
-    { name: "Artificial Grass", description: "Low maintenance and realistic turf." },
+    { name: "Permeable Install", description: "Eco-friendly, durable surfaces.", time: 'fadeIn1' },
+    { name: "Hybrid Pavement", description: "Pattern asphalt, interlock, or concrete.", time: 'fadeIn2'  },
+    { name: "Artificial Grass", description: "Low maintenance and realistic turf.", time: 'fadeIn3'  },
   ];
 
   const portfolio = [
