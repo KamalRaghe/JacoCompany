@@ -30,8 +30,10 @@ export default function Page() {
         <div className="services-grid">
           {services.map((s, i) => (
             <div key={i} className="service-card">
-              <h3>{s.name}</h3>
-              <p>{s.description}</p>
+              <div className= '' >
+                <h3>{s.name}</h3>
+                <p>{s.description}</p>
+              </div>
             </div>
           ))}
         </div>
