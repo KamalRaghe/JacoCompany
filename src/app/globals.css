@@ -80,6 +80,7 @@ section {
   box-shadow: 0 5px 20px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   text-align: center;
+   animation: FadeUp 2s linear;
 }
 
 .service-card:hover {
@@ -145,6 +146,16 @@ footer {
 @keyframes FadeIn {
   0%{
     transform: scale(0.75);
+    opacity: 0
+  } 
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes FadeIn {
+  0%{
+    top:50px;
     opacity: 0
   } 
   100% {
