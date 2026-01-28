@@ -144,7 +144,6 @@ footer {
 
 @keyframes FadeIn {
   0%{
-    transform: scale(0.75);
     opacity: 0
   } 
   100% {
