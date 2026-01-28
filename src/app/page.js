@@ -18,7 +18,7 @@ export default function Page() {
       {/* Hero Section */}
       <section className="hero">
         <div>
-          <h1>Transforming Spaces Beautifully</h1>
+          <h2>Transforming Spaces Beautifully</h2>
           <p>Professional paving, hybrid surfaces, and artificial grass solutions.</p>
           <a href="#services" className="button">Explore Services</a>
         </div>
