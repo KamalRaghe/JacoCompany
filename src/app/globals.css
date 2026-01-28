@@ -153,9 +153,9 @@ footer {
   }
 }
 
-@keyframes FadeIn {
+@keyframes FadeUp {
   0%{
-    top:50px;
+    transform: translateY(30px);
     opacity: 0
   } 
   100% {
