@@ -139,7 +139,7 @@ footer {
 }
 
 .fadeIn{
-   animation: FadeIn 1s linear;
+   animation: FadeIn 2s linear;
 }
 
 @keyframes FadeIn {
