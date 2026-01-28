@@ -17,11 +17,11 @@ export default function Page() {
 
       {/* Hero Section */}
       <section className="hero">
-        <div>
-        <div style={{fontSize:"40px",fontWeight:"bold"}}>Transforming Spaces Beautifully</div>
-          <p>Professional paving, hybrid surfaces, and artificial grass solutions.</p>
-          <a href="#services" className="button">Explore Services</a>
-        </div>
+        <div className="fadeIn" >
+          <div style={{fontSize:"40px",fontWeight:"bold"}}>Transforming Spaces Beautifully</div>
+            <p>Professional paving, hybrid surfaces, and artificial grass solutions.</p>
+            <a href="#services" className="button">Explore Services</a>
+          </div>
       </section>
 
       {/* Services Section */}
